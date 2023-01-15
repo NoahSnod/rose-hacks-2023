@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(52, 150, 161);
+    justify-content: center;
+}
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+}
+.container {
+    animation: 4s anim-lineUp ease-out;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    font-size: 60px;
+    font-family: Helvetica, arial;
+    font-weight: bold;
+    color: white;
+
+    justify-content: center;
+
+}
+body .container .subtext {
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+
+    
+}
+
+body .container .abstract {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 15px;
+    font-family: Helvetica, arial;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    background-color:rgb(52, 150, 161);
+    background: 2px solid white;
+}
+
+body .container .abstract:hover {
+    background-color: whitesmoke;
+    opacity: 80%
+}
+
+.nextPg {
+    text-decoration: none;
+    color: white;
+}
+
+.projectby {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Helvetica, arial;
+    font-weight: bold;
+    justify-content: center;
+
+    display: inline-block;
+    animation: 2s anim-lineUp ease-out;
+}
+
+.credits {
+    text-align: center;
+    bottom: 0;
+}
+.ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position: absolute;
+    bottom: 0px;
+
+}
+.credits ul li {
+    color: white;
+    font-weight: bold;
+    display: inline;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+
+    animation: 3s anim-lineUp ease-out;
+    
+}
+
+.data {
+    bottom: 0;
+}
+
+#newPg {
+    background-color: blue;
+}
