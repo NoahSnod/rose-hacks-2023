@@ -21,6 +21,7 @@ body {
 
 }
 .container {
+
     animation: 4s anim-lineUp ease-out;
     left: 0;
     position: absolute;
@@ -31,7 +32,7 @@ body {
     font-family: Helvetica, arial;
     font-weight: bold;
     color: white;
-
+    
     justify-content: center;
 
 }
