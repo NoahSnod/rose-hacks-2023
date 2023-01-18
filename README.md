@@ -1,8 +1,10 @@
-Inspiration
+# Divided We Fall
+
+##Inspiration
 
 Our team was inspired by the movie "The Social Dilemma." A 2020 Netflix documentary examining the inner workings of social media's addictive design. A design created to maximize profit and brainwash people's views and actions through subtle, but extremally effective manipulation.
 
-What it does
+##What it does
 
 Our project analyzes twitter user data mentioning: political figureheads, politicians, presidents, senators, congress, news channels, and specific keywords through social network scraping tools and programs. With this data we collected we trained a machine learning model to pick up on the negative, positive, and neutral sentiments of these tweets. With our system, we collected even more data from the past 2015-2016 elections. Using this as a comparison with our 2020 COVID-19 political data set, we were able to evaluate the differences in sentiment. When comparing these two times of political tension we saw a larger percentage of negative sentiment proving an increase in discourse and divide in our nation as a product of COVID-19.
 
